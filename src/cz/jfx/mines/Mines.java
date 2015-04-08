@@ -1,15 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/*
- * Miny.java
- *
- * Created on 13.3.2010, 22:47:38
- */
-
-package miny;
+package cz.jfx.mines;
 
 import java.awt.*;
 import java.util.Random;
@@ -19,7 +8,7 @@ import javax.swing.*;
  *
  * @author Felix
  */
-public class Miny extends javax.swing.JFrame{
+public class Mines extends javax.swing.JFrame{
 
     
     public int pocetPolicek = 5;
@@ -32,7 +21,7 @@ public class Miny extends javax.swing.JFrame{
     public int odkryto = 0;
 
         /** Creates new form Miny */
-    public Miny() {
+    public Mines() {
         initComponents();
 
 
@@ -675,7 +664,7 @@ public class Miny extends javax.swing.JFrame{
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Miny().setVisible(true);
+                new Mines().setVisible(true);
             }
         });
     }
